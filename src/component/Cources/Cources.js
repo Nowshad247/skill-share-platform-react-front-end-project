@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { InputGroup, FormControl, Button } from 'react-bootstrap';
+import { InputGroup, FormControl, Button, Spinner } from 'react-bootstrap';
 import classNames from "classnames";
 import Cource from './Cource';
 import './Cources.css'
 const Cources = (props) => {
     const { show } = props;
-    console.log(show);
     const [cources, setCources] = useState([]);
     useEffect(() => {
         fetch('../../fakedata.json')
@@ -29,6 +28,8 @@ const Cources = (props) => {
                     </p>
                 </div>
             </div>
+
+
             <div className='cards'>
                 {
                     show === 'home' ? cources.slice(0, 6).map(cource => <Cource cource={cource} key={cource.id}></Cource>) : cources.map(cource => <Cource cource={cource} key={cource.id}></Cource>)

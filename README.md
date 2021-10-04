@@ -1,7 +1,7 @@
 # SKILL SHARE PLATFORM
 ## We share knowledge with the world
 
-## Live website link : 
+## Live website link : https://pensive-hopper-093011.netlify.app/
 
 ### list about this project 
 

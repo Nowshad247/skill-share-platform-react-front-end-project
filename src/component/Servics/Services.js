@@ -4,7 +4,7 @@ import Cources from '../Cources/Cources';
 const Services = () => {
     return (
         <div>
-            <Cources></Cources>
+            <Cources show='services'></Cources>
         </div>
     );
 };

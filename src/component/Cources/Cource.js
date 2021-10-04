@@ -3,8 +3,11 @@ import './Cource.css'
 import { BiTime, BiVideo } from 'react-icons/bi';
 import { FcManager, FcLikePlaceholder } from 'react-icons/fc';
 import { NavLink } from 'react-router-dom';
+import { Spinner } from 'react-bootstrap';
 const cource = (props) => {
+
     const { title, category, enrolled, duration, lectures, name, price, url, id } = props.cource;
+
     let datailsUrl = `/courcesdatails/${id}`
     return (
         <div className='p-3'>

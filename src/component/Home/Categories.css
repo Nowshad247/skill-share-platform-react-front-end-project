@@ -1,0 +1,15 @@
+.category{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-gap:20px;
+    text-align: center;
+    margin: 20px 0;
+}
+.cat-card{
+    padding: 1.5rem 1.2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgb(62 28 131 / 7%);
+}
+.cat-card:hover{
+    background-color: #9be4cc77;
+}

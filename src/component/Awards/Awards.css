@@ -1,0 +1,16 @@
+.custom-section{
+    width: 1000px !important;
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    min-height: 100px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0.2, 0, 0.2, 0.2);
+    align-items: center;
+}
+.custom-section p{
+    font-weight: bold;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}

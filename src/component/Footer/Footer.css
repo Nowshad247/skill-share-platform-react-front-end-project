@@ -1,0 +1,30 @@
+.footer{
+    background-color: rgb(3,185,124);
+    border-radius: 10px;
+}
+.button-contact{
+    background: #ffffff;
+    padding: 18px 40px;
+    border: 1px solid wheat;
+    border-radius: 50px;
+    color: #333640;
+    font-weight: 600;
+}
+.row-footer-bg{
+    background-color: rgb(29,38,54);
+    color: white;
+    border-radius: 10px;
+}
+.company-footer{
+    display: flex;
+    flex-direction: column;
+
+}
+.company-footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+.company-footer a:hover{
+    color: rgb(3,185,124);
+}

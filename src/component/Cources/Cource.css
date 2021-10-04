@@ -1,0 +1,14 @@
+.sub-top{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.moreinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.price{
+    color:rgb(3,185,124) ;
+}
